@@ -5,8 +5,8 @@ phases:
     commands:
       - echo Logging in to DockerHub...
       - docker login -u $DOCKERHUB_USER -p $DOCKERHUB_PASS
-      - REPOSITORY_URI="docker.io/anujsharma1990/backend"
-      - CONTAINER_NAME="backend-container"
+      - REPOSITORY_URI="docker.io/shruthilango/backend"
+      - CONTAINER_NAME="backend"
       - IMAGE_TAG="latest"
   build:
     commands:
